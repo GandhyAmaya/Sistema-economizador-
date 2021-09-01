@@ -1,0 +1,1252 @@
+ÀÄSistemaEconomizador
+   ÃÄMAIN  0/13906  Ram=4
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄglcd_init  0/164  Ram=1
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³  ÀÄglcd_fillScreen  0/142  Ram=4
+   ³  ³     ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³     ÀÄglcd_writeByte  0/56  Ram=2
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_portada  0/168  Ram=5
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@const811  0/1048  Ram=0
+   ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³     ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³     ÃÄglcd_readByte  0/58  Ram=2
+   ³  ³     ÃÄglcd_readByte  0/58  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/56  Ram=2
+   ³  ³     ÀÄglcd_writeByte  0/56  Ram=2
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄds1307_init  0/228  Ram=2
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_READ_1  0/82  Ram=3
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÀÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_line  0/310  Ram=17
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄglcd_line  0/310  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_line  0/310  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄglcd_line  0/310  Ram=17
+   ³  ³     ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÃÄ@const713  0/282  Ram=0
+   ³  ³  ÃÄ@const717  0/246  Ram=0
+   ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³     ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄleerRTC  0/390  Ram=1
+   ³  ³  ÃÄds1307_get_time  (Inline)  Ram=5
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ³  ÃÄ@I2C_READ_1  0/82  Ram=3
+   ³  ³  ³  ÃÄbcd2bin  0/42  Ram=3
+   ³  ³  ³  ÃÄ@I2C_READ_1  0/82  Ram=3
+   ³  ³  ³  ÃÄbcd2bin  0/42  Ram=3
+   ³  ³  ³  ÃÄ@I2C_READ_1  0/82  Ram=3
+   ³  ³  ³  ÀÄbcd2bin  0/42  Ram=3
+   ³  ³  ÀÄds1307_get_date  (Inline)  Ram=5
+   ³  ³     ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³     ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³     ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³     ÃÄ@I2C_READ_1  0/82  Ram=3
+   ³  ³     ÃÄbcd2bin  0/42  Ram=3
+   ³  ³     ÃÄ@I2C_READ_1  0/82  Ram=3
+   ³  ³     ÃÄbcd2bin  0/42  Ram=3
+   ³  ³     ÃÄ@I2C_READ_1  0/82  Ram=3
+   ³  ³     ÃÄbcd2bin  0/42  Ram=3
+   ³  ³     ÃÄ@I2C_READ_1  0/82  Ram=3
+   ³  ³     ÀÄbcd2bin  0/42  Ram=3
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÀÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄarrow  0/380  Ram=0
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³     ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄleerRTC  0/390  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄds1307_set_date_time  0/226  Ram=9
+   ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÃÄbin2bcd  0/40  Ram=3
+   ³  ³  ÃÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ³  ÀÄ@I2C_WRITE_1  0/90  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_finalizado  0/172  Ram=5
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@const792  0/1048  Ram=0
+   ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³     ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄarrow  0/380  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ÃÄ@I2C_WRITE_2  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_2  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_2  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_2  0/90  Ram=1
+   ³  ³  ÀÄ@I2C_READ_2  0/84  Ram=3
+   ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_LU_979  0/198  Ram=9
+   ³  ³  ÀÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_LU_979  0/198  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ÃÄ@I2C_WRITE_2  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_2  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_2  0/90  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_2  0/90  Ram=1
+   ³  ³  ÀÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_LU_979  0/198  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄconsulta_datos  0/2188  Ram=2
+   ³  ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_assist  0/172  Ram=5
+   ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄ@const819  0/1048  Ram=0
+   ³  ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄarrow2  0/808  Ram=1
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄarrow2  0/808  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³  ÃÄ@FTOSD  0/68  Ram=5
+   ³  ³  ³  ÃÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ³  ÀÄ@DIV3232  0/148  Ram=13
+   ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ³  ÀÄglcd_text57  0/442  Ram=20
+   ³  ³     ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_control  0/172  Ram=5
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@const835  0/1048  Ram=0
+   ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³     ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_LU_979  0/198  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_LU_979  0/198  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_LU_979  0/198  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_interfaz  0/170  Ram=5
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@const803  0/1048  Ram=0
+   ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³     ÀÄ*
+   ³  ÃÄleerRTC  0/390  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄcontrolador  0/736  Ram=4
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ³  ÃÄ@delay_us1  0/36  Ram=1
+   ³  ³  ÃÄ@delay_us1  0/36  Ram=1
+   ³  ³  ÃÄ@delay_us1  0/36  Ram=1
+   ³  ³  ÃÄ@delay_us1  0/36  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@DIVFF  0/350  Ram=14
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ³  ÃÄ@delay_us1  0/36  Ram=1
+   ³  ³  ÃÄ@delay_us1  0/36  Ram=1
+   ³  ³  ÃÄ@delay_us1  0/36  Ram=1
+   ³  ³  ÀÄ@delay_us1  0/36  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@PRINTF_D0_979  0/188  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_circle  0/552  Ram=12
+   ³  ³  ÃÄglcd_line  0/310  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_line  0/310  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_line  0/310  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_line  0/310  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MUL88  0/78  Ram=2
+   ³  ³  ÀÄ@MUL88  0/78  Ram=2
+   ³  ÃÄglcd_circle  0/552  Ram=12
+   ³  ³  ÀÄ*
+   ³  ÃÄds1307_get_time  (Inline)  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄstoreDATA  0/1578  Ram=4
+   ³  ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_saving  0/172  Ram=5
+   ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄ@const827  0/1048  Ram=0
+   ³  ³  ³  ÀÄglcd_pixel  0/236  Ram=7
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ext_eeprom  0/122  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄ@SFTOI  0/60  Ram=4
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄglcd_rect  0/194  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄwrite_ext_eeprom  0/90  Ram=5
+   ³  ³     ÀÄ*
+   ³  ÃÄglcd_fillScreen  0/142  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄglcd_interfaz  0/170  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÃÄglcd_text57  0/442  Ram=20
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_L32D_979FPFPF  0/430  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@SPRINTF  0/32  Ram=1
+   ³  ÀÄglcd_text57  0/442  Ram=20
+   ³     ÀÄ*
+   ÃÄEXT_isr  0/8  Ram=0
+   ÃÄEXT1_isr  0/8  Ram=0
+   ÃÄEXT2_isr  0/6  Ram=0
+   ÃÄTIMER0_isr  0/10  Ram=0
+   ÀÄTIMER1_isr  0/10  Ram=0

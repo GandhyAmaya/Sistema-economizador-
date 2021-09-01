@@ -1,0 +1,121 @@
+
+ROM used:   34142/65536 (52%)
+            34142/65536 (52%) including unused fragments
+
+            8.1 Average locations per line
+            22.7 Average locations per statement
+
+RAM used:   2857/3968 (72%) at main() level
+            2890/3968 (73%) worst case
+
+Stack used: 6 worst case (5 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1694  1123  75  Principal.c
+   12     0   0  Principal.h
+  839     0   0  ..\..\..\..\PROGRA~2\PICC\devices\18F4620.h
+  147    75   5  rtcc.c
+   71    18   1  24C321.c
+  356    75   5  HDM64GS12.c
+  541   163  11  graphics.c
+   89     8   1  finalizado.h
+   89     8   1  Interfaz.h
+   90     8   1  Portada.h
+   90     8   1  DataAsist.h
+   89     8   1  saving.h
+   89     8   1  Tipo_control.h
+----- -----
+ 4196  1502 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0    1             @delay_ms1
+0     36   0    1             @delay_us1
+0     82   0    3             @I2C_READ_1
+0     90   0    1             @I2C_WRITE_1
+0    228   0    2   434  2.5  ds1307_init
+0    226   0    9   774  4.7  ds1307_set_date_time
+ Inline         5   407  3.4  ds1307_get_date
+ Inline         5   440  3.2  ds1307_get_time
+0     40   0    3   257  6.6  bin2bcd
+0     42   0    3   175  3.9  bcd2bin
+0     84   0    3             @I2C_READ_2
+0     90   0    1             @I2C_WRITE_2
+0     90   0    5   248  3.6  write_ext_eeprom
+0    122   0    5   324  2.6  read_ext_eeprom
+0    164   0    1   527  3.3  glcd_init
+0    236   0    7   779  7.2  glcd_pixel
+0    142   0    4   506  4.8  glcd_fillScreen
+0     56   0    2   307  2.8  glcd_writeByte
+0     58   0    2   318  2.8  glcd_readByte
+0    282   0    0             @const713
+0    246   0    0             @const717
+0    310   0   17  1519  9.2  glcd_line
+0    194   0    6  1071  6.1  glcd_rect
+0    552   1   12  1846  8.8  glcd_circle
+0     78   0    2             @MUL88
+0    442   1   20  1587 11.7  glcd_text57
+0   1048   2    0             @const792
+0    172   0    5   427  7.3  glcd_finalizado
+0     34   0    5             @MUL1616
+0   1048   2    0             @const803
+0    170   0    5   427  7.3  glcd_interfaz
+0   1048   2    0             @const811
+0    168   0    5   427  7.3  glcd_portada
+0   1048   2    0             @const819
+0    172   0    5   427  7.3  glcd_assist
+0   1048   2    0             @const827
+0    172   0    5   427  7.3  glcd_saving
+0   1048   2    0             @const835
+0    172   0    5   431  6.9  glcd_control
+0      8   0    0    22  1.2  EXT_isr
+0      8   0    0    22  1.2  EXT1_isr
+0      6   0    0     5  1.0  EXT2_isr
+0     10   0    0    31  1.7  TIMER0_isr
+0     10   0    0    31  1.7  TIMER1_isr
+0    390   1    1   192  3.6  leerRTC
+0     54   0    2             @ITOF
+0    246   0   11             @MULFF
+0    380   1    0  1104  2.0  arrow
+0    808   1    1  2516  2.0  arrow2
+0   2188   3    2  5112  8.9  consulta_datos
+0    350   1   14             @DIVFF
+0    632   1   16             @ADDFF
+0     32   0    1             @SPRINTF
+0     44   0    3             @DIV88
+0    188   0    6             @PRINTF_D0_979
+0     68   0    5             @FTOSD
+0    148   0   13             @DIV3232
+0    430   1   13             @PRINTF_L32D_979FPFPF
+0   1578   2    4  3411  6.9  storeDATA
+0     60   0    4             @SFTOI
+0    736   1    4   951  6.7  controlador
+0     70   0    5             @DIV1616
+0  13906  20    4 68589 12.0  MAIN
+0    122   0   10             @FLT
+0    198   0    9             @PRINTF_LU_979
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               35
+    Statements              1502
+    Comments                908
+    Volume (V)              124434
+    Difficulty (D)          182.0
+    Effort to implement (E) 22642340
+    Time to implement (T)   349 hours, 25 minutes
+    Est Delivered Bugs (B)  27
+    Cyclomatic Complexity   175
+    Maintainability (MI)    116
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000C4   190  0  
+000C6-0FFFE  33948  31390  
+
+
+

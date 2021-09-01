@@ -1,0 +1,27 @@
+[PROJECT]
+Target=dist\default\production\Principal.hex
+Processor_Text=PIC18F4685
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=dist\default\production\Principal.c
+[Directories]
+Include=C:\PROGRA~2\PICC\devices\;C:\PROGRA~2\PICC\drivers\;C:\PROGRA~2\PICC\drivers\C:\PROGRA~2\PICC\devices\
+[build\default\production\Principal.c]
+Type=4
+[mru-list]
+1=dist\default\production\Principal.c
+[Opened Files]
+1=Principal.c
+2=18F4620.h
+3=
+4=
+[dist\default\production\Principal.c]
+Type=4
+[Principal.c]
+Type=4
+[dist\default\debug\Principal.c]
+Type=4
+[Units]
+Count=1
+1=Principal (main)

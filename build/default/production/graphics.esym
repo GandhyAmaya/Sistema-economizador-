@@ -1,0 +1,11 @@
+D G "__PCH__" 0 0 ""5.015""
+D G "__DEVICE__" 0 0 ""
+D G "__DATE__" 0 0 ""01-abr.-18""
+D G "__TIME__" 0 0 ""23:34:17""
+D G "__18F4620" 0 0 "1" "graphics.c                             ////"
+D G "GRAPHICS_DRAWING_FUNCTIONS" 0 59 ""
+D G "ON" 0 65 "1"
+D G "OFF" 0 69 "0"
+D G "YES" 0 73 "1"
+D G "NO" 0 77 "0"
+V G "FONT" 0 85 "[51][5]" `34 

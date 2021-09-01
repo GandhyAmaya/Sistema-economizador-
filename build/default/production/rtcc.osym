@@ -1,0 +1,40 @@
+_RETURN_
+CCP_1
+CCP_1_LOW
+CCP_1_HIGH
+CCP_2
+CCP_2_LOW
+CCP_2_HIGH
+PSP_DATA
+C1OUT
+C2OUT
+
+Project Directory:
+    C:\Users\gandhy\Desktop\SistemaEconomizador.X\
+
+Project Files:
+    rtcc.c                                                  [01-abr.-18 22:48  CRC=31416016]
+    18F4620.h                                               [31-may.-16 18:30  CRC=2BE2BD24]
+
+Source signature=8906DA5E
+
+Units:
+    rtcc (main)
+
+Compiler Settings:
+    Processor:      PIC18F4620
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Output file:    Relocatable
+    Predefined symbols:
+       #define __18F4620 1
+
+Output Files:
+    XREF file:   build\default\production\rtcc.xsym
+    Errors:      build\default\production\rtcc.err
+    Ext Symbols: build\default\production\rtcc.esym
+    Object:      build\default\production\rtcc.o
+    Symbols:     build\default\production\rtcc.osym
